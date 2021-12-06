@@ -16,7 +16,7 @@ const distDir = 'dist'
 const pxtoviewportPlugin = pxtoviewport({
   // https://juejin.cn/post/6844904146865225742
   unitToConvert: "px",	//需要转换的单位，默认为"px"
-  viewportWidth: 1080,   // 视窗的宽度，对应的是我们设计稿的宽度，一般是750
+  viewportWidth: 1920,   // 视窗的宽度，对应的是我们设计稿的宽度，一般是750
   unitPrecision: 6,		//单位转换后保留的精度
   propList: [		//能转化为vw的属性列表
     "*"
