@@ -1,0 +1,25 @@
+::placeholder {
+  color: gray;
+}
+body {
+  color: #606060;
+  height: 100vh;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  p {
+    font-size: 16px;
+  }
+  @keyframes fafa {
+    from {
+      transform: initial;
+    }
+    to {
+      transform: rotate(1turn);
+    }
+  }
+}
+
+.box {
+  font-size: 20px;
+}

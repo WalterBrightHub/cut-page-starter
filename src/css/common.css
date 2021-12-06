@@ -1,0 +1,8 @@
+.common {
+  font-size: 30px;
+  color: #303030;
+}
+
+::placeholder {
+  color: gray;
+}
