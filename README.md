@@ -17,6 +17,10 @@ $ cnpm install --save-dev gulp-cache gulp-imagemin@7
 
 gulp-imagemin@8使用了import代替require语法，怪怪的，还是用7吧。
 
+## 使用方法
+
+在/src中编写页面，然后运行gulp就好辣
+
 ## 功能
 
 + 支持 scss

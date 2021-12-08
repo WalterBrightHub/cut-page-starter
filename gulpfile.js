@@ -82,7 +82,7 @@ const htmlTypes = ['./src/**/*.html', '!(./src/+(static|image)/**/*)']
 
 const htmlTask = () => {
   return src(htmlTypes)
-    .pipe(replace(/(href=".*).scss"/, '$1.css"'))
+    .pipe(replace(/(href=".*).scss"/g, '$1.css"'))
     .pipe(dest(distDir))
     .pipe(connect.reload())
 }
