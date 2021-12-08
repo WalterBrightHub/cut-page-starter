@@ -1,6 +1,16 @@
 # Cut Page Starter
 
-切图启动器，帮助完成静态页面 ~~（然后扔给后端）~~ 。
+切图启动器。
+
+## 使用方法
+
+克隆仓库
+
+```bash
+$ git clone https://github.com/WalterBrightHub/cut-page-starter.git
+```
+
+在/src中编写页面，然后运行`gulp`就好辣
 
 ## 安装命令
 
@@ -16,10 +26,6 @@ $ cnpm install --save-dev gulp-cache gulp-imagemin@7
 ```
 
 gulp-imagemin@8使用了import代替require语法，怪怪的，还是用7吧。
-
-## 使用方法
-
-在/src中编写页面，然后运行gulp就好辣
 
 ## 功能
 
