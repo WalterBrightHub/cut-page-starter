@@ -1,0 +1,16 @@
+.common {
+  font-size: 3.125vw;
+  color: #303030;
+}
+
+::-moz-placeholder {
+  color: gray;
+}
+
+:-ms-input-placeholder {
+  color: gray;
+}
+
+::placeholder {
+  color: gray;
+}
